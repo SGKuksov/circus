@@ -1,0 +1,46 @@
+.airports-img {
+  max-width: 50px;
+}
+.airports {
+  max-width: 600px;
+  border: 1px solid black;
+  border-radius: .5em;
+  padding: .5em;
+  grid-gap: 1em;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.about {
+  padding-top: .5em;
+  grid-column: 5 / span 4;
+}
+.airports input, .airports button {
+  font: inherit;
+  padding: .5em;
+}
+
+.airports input {
+  grid-column: span 3;
+}
+.airports input, .about {
+  font-size: 18px;
+}
+.airports button {
+  grid-column: -3 / -1;
+  background: lightblue;
+  border: 1px solid;
+  border-radius: .5em;
+  box-shadow: 2px 2px 0px;
+}
+
+.airports button {
+  
+}
+
+.airports h1 {
+  grid-column: span 5;
+  margin-top: .125em;
+}
